@@ -193,7 +193,7 @@ document.querySelector("#btn-r-n").addEventListener('click',function(e)
     {
         for(var i=0;i<graph.get(j).length;i++)
         {
-            if(i===map.get(node_label))
+            if(graph.get(j)[i]===map.get(node_label))
             {
                graph.get(j).splice(i,1);
             }
